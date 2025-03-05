@@ -1,7 +1,7 @@
 # optix.movies
 An API for serving movie data
 
-1. Please change the connection strings in appsettings within the Optix.Movies.Api project to the database of your choice.
+1. Please change the connection strings in appsettings within the Optix.Movies.Api project and the Data Importer project to the database of your choice.
 2. Open the Package Manager Console, set Optix.Movies.Model as the default project and then type in:
 	Update-Database
 3. You now have the database tables in place. Set the Optix.Movies.DataImporter as your start up project and run it.
